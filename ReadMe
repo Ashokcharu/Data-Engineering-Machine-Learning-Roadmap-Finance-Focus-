@@ -1,16 +1,33 @@
 📌 Learning Phases Overview
 
-| Phase   | Duration | Focus Area                          | Algorithms / Concepts                                                           | Technologies & Tools                       | Deliverables                         |
-| ------- | -------- | ----------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------ |
-| Phase 1 | Week 1–2 | Data Handling & Feature Engineering | Lag features, rolling stats, normalization, outlier handling                    | Python, Pandas, NumPy, Matplotlib, Seaborn | Cleaned & feature-engineered dataset |
-| Phase 2 | Week 3–4 | Big Data Processing                 | Partitioning, window functions, aggregations                                    | PySpark, Spark SQL, Parquet                | Spark job on 1M+ records             |
-| Phase 3 | Week 5   | Data Engineering (ETL)              | Schema enforcement, deduplication, data quality checks                          | PySpark, Delta Lake, Databricks            | Bronze–Silver–Gold pipeline          |
-| Phase 4 | Week 6   | Classical Machine Learning          | Linear, Logistic, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting | Scikit-learn                               | Direction classifier (UP/DOWN)       |
-| Phase 5 | Week 7   | ML Evaluation & Feature Selection   | Cross-validation, ROC-AUC, precision/recall, feature importance                 | Scikit-learn, MLflow                       | Model comparison report              |
-| Phase 6 | Week 8–9 | Deep Learning (Time-Series)         | LSTM, GRU, dropout, early stopping, sliding windows                             | TensorFlow, Keras, NumPy                   | Trend probability LSTM               |
-| Phase 7 | Week 10  | Advanced Time-Series ML             | Volatility modeling, regime detection, probability calibration                  | Pandas, SciPy, Statsmodels                 | Market regime classifier             |
-| Phase 8 | Week 11  | ML Engineering (MLOps)              | Experiment tracking, model versioning, reproducibility                          | MLflow, Databricks Jobs                    | Logged & scheduled training pipeline |
-| Phase 9 | Week 12  | Decision & Risk Systems             | Confidence thresholds, ensemble logic, trade filtering                          | Python, Spark                              | Trade risk-filter engine             |
+📌 TABLE 1: Learning Phases (High-Level Roadmap)
+
+| Phase   | Duration | Focus Area                          |
+| ------- | -------- | ----------------------------------- |
+| Phase 1 | Week 1–2 | Data Handling & Feature Engineering |
+| Phase 2 | Week 3–4 | Big Data Processing                 |
+| Phase 3 | Week 5   | Data Engineering (ETL)              |
+| Phase 4 | Week 6   | Classical Machine Learning          |
+| Phase 5 | Week 7   | ML Evaluation & Feature Selection   |
+| Phase 6 | Week 8–9 | Deep Learning (Time-Series)         |
+| Phase 7 | Week 10  | Advanced Time-Series ML             |
+| Phase 8 | Week 11  | ML Engineering (MLOps)              |
+| Phase 9 | Week 12  | Decision & Risk Systems             |
+
+📌 TABLE 2: Technical Depth (What You Actually Learn & Build)
+
+| Phase   | Algorithms / Concepts                                                           | Technologies & Tools                       | Deliverables                   |
+| ------- | ------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------ |
+| Phase 1 | Lag features, rolling stats, normalization, outlier handling                    | Python, Pandas, NumPy, Matplotlib, Seaborn | Feature-engineered dataset     |
+| Phase 2 | Partitioning, window functions, aggregations                                    | PySpark, Spark SQL, Parquet                | Spark job on 1M+ records       |
+| Phase 3 | Schema enforcement, deduplication, data quality checks                          | PySpark, Delta Lake, Databricks            | Bronze–Silver–Gold pipeline    |
+| Phase 4 | Linear, Logistic, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting | Scikit-learn                               | Direction classifier (UP/DOWN) |
+| Phase 5 | Cross-validation, ROC-AUC, precision/recall, feature importance                 | Scikit-learn, MLflow                       | Model comparison report        |
+| Phase 6 | LSTM, GRU, dropout, early stopping, sliding windows                             | TensorFlow, Keras, NumPy                   | Trend probability LSTM         |
+| Phase 7 | Volatility modeling, regime detection, probability calibration                  | Pandas, SciPy, Statsmodels                 | Market regime classifier       |
+| Phase 8 | Experiment tracking, model versioning, reproducibility                          | MLflow, Databricks Jobs                    | Scheduled ML pipeline          |
+| Phase 9 | Confidence thresholds, ensemble logic, trade filtering                          | Python, Spark                              | Trade risk-filter engine       |
+
 
 🤖 Machine Learning Coverage
 
