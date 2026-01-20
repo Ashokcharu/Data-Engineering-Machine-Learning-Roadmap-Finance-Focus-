@@ -2,6 +2,10 @@
 
 Pandas is a powerful Python library used for working with structured data such as tables, spreadsheets, and time-series data. It provides easy-to-use data structures like DataFrame and Series that allow you to load, clean, transform, analyze, and summarize data efficiently. Pandas is widely used for data analysis, data cleaning, feature engineering for machine learning, and time-series processing. It helps handle missing values, filter and aggregate data, perform fast vectorized operations, and prepare datasets for visualization or ML models. In short, Pandas makes raw data easy to understand, modify, and convert into insights.
 
+🧠 Pandas in One Line
+
+Pandas turns raw data into clean, usable data using simple Python code.
+
 ---
 
 ## 📘 CHAPTER 0: Setup (Do This First)
