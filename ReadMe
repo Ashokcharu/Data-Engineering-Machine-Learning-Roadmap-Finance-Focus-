@@ -18,15 +18,15 @@
 
 | Phase   | Algorithms / Concepts                                                           | Technologies & Tools                       | Deliverables                   |
 | ------- | ------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------ |
-| Phase 1 | Lag features, rolling stats, normalization, outlier handling                    | Python, Pandas, NumPy, Matplotlib, Seaborn | Feature-engineered dataset     |
-| Phase 2 | Partitioning, window functions, aggregations                                    | PySpark, Spark SQL, Parquet                | Spark job on 1M+ records       |
-| Phase 3 | Schema enforcement, deduplication, data quality checks                          | PySpark, Delta Lake, Databricks            | Bronze–Silver–Gold pipeline    |
-| Phase 4 | Linear, Logistic, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting | Scikit-learn                               | Direction classifier (UP/DOWN) |
-| Phase 5 | Cross-validation, ROC-AUC, precision/recall, feature importance                 | Scikit-learn, MLflow                       | Model comparison report        |
-| Phase 6 | LSTM, GRU, dropout, early stopping, sliding windows                             | TensorFlow, Keras, NumPy                   | Trend probability LSTM         |
-| Phase 7 | Volatility modeling, regime detection, probability calibration                  | Pandas, SciPy, Statsmodels                 | Market regime classifier       |
-| Phase 8 | Experiment tracking, model versioning, reproducibility                          | MLflow, Databricks Jobs                    | Scheduled ML pipeline          |
-| Phase 9 | Confidence thresholds, ensemble logic, trade filtering                          | Python, Spark                              | Trade risk-filter engine       |
+|  1 | Lag features, rolling stats, normalization, outlier handling                    | Python, Pandas, NumPy, Matplotlib, Seaborn | Feature-engineered dataset     |
+|  2 | Partitioning, window functions, aggregations                                    | PySpark, Spark SQL, Parquet                | Spark job on 1M+ records       |
+|  3 | Schema enforcement, deduplication, data quality checks                          | PySpark, Delta Lake, Databricks            | Bronze–Silver–Gold pipeline    |
+|  4 | Linear, Logistic, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting | Scikit-learn                               | Direction classifier (UP/DOWN) |
+|  5 | Cross-validation, ROC-AUC, precision/recall, feature importance                 | Scikit-learn, MLflow                       | Model comparison report        |
+|  6 | LSTM, GRU, dropout, early stopping, sliding windows                             | TensorFlow, Keras, NumPy                   | Trend probability LSTM         |
+|  7 | Volatility modeling, regime detection, probability calibration                  | Pandas, SciPy, Statsmodels                 | Market regime classifier       |
+|  8 | Experiment tracking, model versioning, reproducibility                          | MLflow, Databricks Jobs                    | Scheduled ML pipeline          |
+|  9 | Confidence thresholds, ensemble logic, trade filtering                          | Python, Spark                              | Trade risk-filter engine       |
 
 
 🤖 Machine Learning Coverage
